@@ -26,13 +26,16 @@ const SearchContainer = styled.div`
   display: flex;
   align-items: center;
   margin-left: 25px;
+  height: 30px;
+  padding: 5px;
+  border-radius: 5px;
 `;
 const Input = styled.input`
   border: none;
   outline: none;
 `;
 const Center = styled.div`
-  flex: 1;
+  flex: 0.5;
 `;
 const Logo = styled.h1`
   font-weight: bold;
@@ -57,7 +60,7 @@ const Navbar = () => {
           <Language>En</Language>
           <SearchContainer>
             <Input />
-            <Search style={{color:"gray",fontSize:"16px"}} />
+            <Search style={{color:"gray",fontSize:"20px"}} />
           </SearchContainer>
         </Left>
         <Center>
